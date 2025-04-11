@@ -1,67 +1,56 @@
-**Mutual Fund Investment Analyzer**:
+# Mutual Fund Investment Analyzer
+
+Mutual Fund Investment Analyzer is a Python-based Streamlit web application that provides users with tools to analyze mutual fund performance using live NAV data fetched directly from the AMFI (Association of Mutual Funds in India) website. It also includes calculators to estimate future returns for SIP (Systematic Investment Plan) and lump sum investments.
+
+## Features
+
+- 📈 Fetches real-time mutual fund NAV data from AMFI
+- 🔍 Displays mutual fund data in a clean, searchable table
+- 📊 Visualizes NAV trends over time using interactive Plotly line charts
+- 💸 Calculates future value for SIP and lump sum investments
+- 🖥️ User-friendly and responsive web interface using Streamlit
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- Requests
+
+## How to Run
+
+1. Clone the repository:
+   git clone https://github.com/your-username/mutual-fund-analyzer.git
+
+2. Navigate to the project directory:
+   cd mutual-fund-analyzer
+
+3. Install required dependencies:
+   pip install -r requirements.txt
+
+4. Run the application:
+   streamlit run app.py
+
+## Project Structure
+
+- `app.py` – Main Streamlit app interface
+- `fetch_data.py` – Module to fetch and clean mutual fund NAV data from AMFI
+- `sip_calculator.py` – Contains functions for SIP and lump sum calculations
+- `requirements.txt` – List of required Python libraries
+
+## Sample Calculations
+
+- SIP Future Value
+- Lump Sum Investment Growth
+
+## Acknowledgements
+
+- AMFI India for providing mutual fund NAV data
 
 ---
 
-```markdown
-# 📈 Mutual Fund Investment Analyzer
 
-This Streamlit web application helps users analyze mutual fund performance using real-time data from AMFI India and estimate returns through SIP and lump sum calculators.
-
-## 🚀 Features
-
-- ✅ **Live Mutual Fund NAV Fetching** from [AMFI India](https://www.amfiindia.com/)
-- 📊 **Fund Performance Visualization** using Plotly
-- 🧮 **SIP & Lump Sum Investment Return Calculators**
-- 🔎 Interactive UI built with Streamlit for a seamless experience
-
-## 🛠️ Tech Stack
-
-- **Python**
-- **Streamlit**
-- **Pandas**
-- **Plotly**
-- **Requests**
-
-## 🧾 Modules Overview
-
-- `fetch_data.py`: Fetches and parses mutual fund NAV data
-- `sip_calculator.py`: Calculates future returns for SIP and lump sum investments
-- `app.py`: Main Streamlit app that integrates all components
-
-## 📸 Output
+https://github.com/user-attachments/assets/1e46967d-0128-4da5-872d-48a1bc74207e
 
 
-https://github.com/user-attachments/assets/1df9c514-f594-4152-9c56-798aae30441e
-
-
-
-## 🧠 How to Run
-
-```bash
-pip install streamlit pandas plotly requests
-streamlit run app.py
-```
-
-## 📂 Folder Structure
-
-```
-mutual_fund_analyzer/
-│
-├── app.py
-├── fetch_data.py
-├── sip_calculator.py
-└── requirements.txt  # Optional
-```
-
-## 📬 Contact
-
-For queries, suggestions, or contributions, feel free to reach out or raise an issue!
-
----
-
-Enjoy analyzing your investments! 💸📊
-```
-
----
-
-Let me know if you want me to generate a `requirements.txt` or add GitHub badges, licensing info, or deployment guide!
